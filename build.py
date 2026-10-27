@@ -9,8 +9,8 @@ import html
 import pathlib
 import re
 
-STUDIO = "[Your name or studio]"
-SUPPORT_EMAIL = "[support email]"
+STUDIO = "SWTNOA"
+SUPPORT_EMAIL = "nazishahsan40@gmail.com"
 
 ROOT = pathlib.Path(__file__).parent
 PAGES = {"privacy": "Privacy Policy", "terms": "Terms of Service",
