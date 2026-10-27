@@ -9,7 +9,7 @@ import html
 import pathlib
 import re
 
-STUDIO = "SWTNOA"
+STUDIO = "The Trap & Run team"
 SUPPORT_EMAIL = "nazishahsan40@gmail.com"
 
 ROOT = pathlib.Path(__file__).parent
