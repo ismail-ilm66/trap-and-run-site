@@ -144,5 +144,5 @@ terms.
 
 ## 15. Contact
 
-The Trap & Run team
-**[support email]**
+- The Trap & Run team
+- **[support email]**

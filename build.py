@@ -28,7 +28,8 @@ def inline(text):
 def convert(md):
     md = re.sub(r"\A---\n.*?\n---\n", "", md, flags=re.S)
     md = md.replace("[Your name or studio]", STUDIO)
-    md = md.replace("[support email]", SUPPORT_EMAIL)
+    email = SUPPORT_EMAIL if SUPPORT_EMAIL.startswith("[") else f"[{SUPPORT_EMAIL}](mailto:{SUPPORT_EMAIL})"
+    md = md.replace("[support email]", email)
     out, para, items, rows = [], [], [], []
 
     def flush():

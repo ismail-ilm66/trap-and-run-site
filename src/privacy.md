@@ -153,6 +153,6 @@ the page for at least 30 days.
 
 ## 10. Contact
 
-The Trap & Run team
-**[support email]**
-Rawalpindi, Pakistan
+- The Trap & Run team
+- **[support email]**
+- Rawalpindi, Pakistan
