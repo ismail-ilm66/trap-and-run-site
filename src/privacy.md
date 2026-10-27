@@ -6,8 +6,8 @@ title: Privacy Policy
 
 **Last updated: 2026-10-25**
 
-Trap & Run ("the app", "we", "us") is a two-player strategy board game for
-Android and iOS made by **[Your name or studio]**. This policy explains what
+Trap & Run ("the app") is an independent two-player strategy board game for
+Android and iOS; "we" and "us" means its developer. This policy explains what
 the app stores, why, who can see it, and how to delete it. It is written to
 be read, not skimmed; the short version is in the first section.
 
@@ -141,7 +141,7 @@ are verified on the server before an account is linked.
 
 ## 8. International transfers
 
-Our servers are hosted by Supabase in **[region, e.g. the EU / the US]**.
+Our servers are hosted by Supabase in **Singapore** (AWS ap-southeast-1).
 If you play from another country, your data is transferred there to run the
 game. Supabase provides standard contractual safeguards for such transfers.
 
@@ -153,6 +153,6 @@ the page for at least 30 days.
 
 ## 10. Contact
 
-**[Your name or studio]**
+The Trap & Run team
 **[support email]**
-**[postal address, if required in your country]**
+Rawalpindi, Pakistan

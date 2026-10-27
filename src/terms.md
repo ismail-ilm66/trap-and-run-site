@@ -6,7 +6,7 @@ title: Terms of Service
 
 **Last updated: 2026-10-25**
 
-These terms are an agreement between you and **[Your name or studio]**
+These terms are an agreement between you and the developer of Trap & Run
 ("we", "us") for the use of the Trap & Run game app ("the app"). By
 installing or playing the app you agree to them. If you do not agree, do
 not use the app.
@@ -130,8 +130,8 @@ which forms part of these terms.
 
 ## 13. Governing law
 
-These terms are governed by the laws of **[your country / state]**, and
-disputes will be heard in the courts of **[your city / jurisdiction]**,
+These terms are governed by the laws of **Pakistan**, and disputes will be
+heard in the courts of **Rawalpindi, Pakistan**,
 unless the consumer-protection law of your country of residence gives you
 the right to bring claims at home, in which case that right is unaffected.
 
@@ -144,5 +144,5 @@ terms.
 
 ## 15. Contact
 
-**[Your name or studio]**
+The Trap & Run team
 **[support email]**
