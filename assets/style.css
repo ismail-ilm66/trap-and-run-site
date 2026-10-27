@@ -1,0 +1,70 @@
+:root {
+  --bg: #0D0E11; --surface: #17191E; --raised: #1F2228; --cell: #2F343E;
+  --text: #ECEDEF; --muted: #A0A5AE; --cyan: #4FC3F7; --amber: #FFB74D;
+  --radius: 18px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a { color: var(--cyan); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; display: block; }
+code { background: var(--raised); padding: 0.1em 0.35em; border-radius: 6px; font-size: 0.92em; }
+
+.bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 14px 16px; max-width: 1040px; margin: 0 auto;
+}
+.bar nav { display: flex; gap: 18px; font-weight: 600; }
+.bar nav a { color: var(--muted); }
+.bar nav a:hover { color: var(--text); text-decoration: none; }
+
+.doc { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+.doc h1 { font-size: 2rem; line-height: 1.2; margin: 0.4em 0 0.6em; }
+.doc h2 { font-size: 1.35rem; margin: 2em 0 0.6em; color: var(--text); }
+.doc h3 { font-size: 1.1rem; margin: 1.6em 0 0.5em; color: var(--muted); }
+.doc p, .doc li { color: #D5D8DD; }
+.doc ul { padding-left: 1.3em; }
+.doc li { margin: 0.35em 0; }
+.doc table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.95em; display: block; overflow-x: auto; }
+.doc th, .doc td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--cell); }
+.doc th { color: var(--muted); font-weight: 600; }
+.doc strong { color: var(--text); }
+
+.hero { max-width: 1040px; margin: 0 auto; padding: 32px 16px 8px; text-align: center; }
+.hero img.logo { width: min(420px, 86vw); margin: 0 auto 18px; }
+.hero h1 { font-size: clamp(1.7rem, 5vw, 2.6rem); line-height: 1.15; margin: 0 0 12px; }
+.hero h1 span { color: var(--amber); }
+.hero p.lead { color: var(--muted); font-size: 1.15rem; max-width: 640px; margin: 0 auto 22px; }
+.badges { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
+.pill {
+  display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 700;
+  background: var(--raised); color: var(--muted); border: 1px solid var(--cell);
+}
+.pill.live { background: var(--text); color: var(--bg); border-color: var(--text); }
+.note { color: var(--muted); font-size: 0.95rem; }
+
+.shots { display: grid; grid-auto-flow: column; grid-auto-columns: min(260px, 72vw); gap: 16px;
+  overflow-x: auto; padding: 24px 16px 12px; scroll-snap-type: x mandatory; max-width: 1040px; margin: 0 auto; }
+.shots img { border-radius: 22px; scroll-snap-align: center; box-shadow: 0 12px 40px rgba(0,0,0,.55); }
+
+.section { max-width: 1040px; margin: 0 auto; padding: 40px 16px; }
+.section h2 { font-size: 1.6rem; margin: 0 0 18px; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--cell); border-radius: var(--radius); padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.card h3.a { color: var(--cyan); } .card h3.b { color: var(--amber); }
+.card p { margin: 0; color: var(--muted); }
+.steps { counter-reset: s; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.steps div { background: var(--raised); border-radius: var(--radius); padding: 18px 18px 18px 56px; position: relative; color: #D5D8DD; }
+.steps div::before { counter-increment: s; content: counter(s); position: absolute; left: 16px; top: 16px;
+  width: 28px; height: 28px; border-radius: 50%; background: var(--cyan); color: var(--bg); font-weight: 800;
+  display: grid; place-items: center; }
+.banner { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.banner img { border-radius: var(--radius); }
+
+.foot { max-width: 1040px; margin: 0 auto; padding: 28px 16px 40px; color: var(--muted); font-size: 0.95rem; border-top: 1px solid var(--cell); }
+.foot a { color: var(--muted); }
